@@ -32,18 +32,46 @@
 // Array,object,functions
 
 
-const hero = ["satyam","faiyaz","amit","rakesh"] // this is a array define
-let myobj = {
-    name:"faiyaz ansari",
-    rollNumber:4444,
+// const hero = ["satyam","faiyaz","amit","rakesh"] // this is a array define
+// let myobj = {
+//     name:"faiyaz ansari",
+//     rollNumber:4444,
+// }
+
+// console.log(typeof myobj);
+
+
+// const myfunction = function num(){
+//     console.log("hellow");
+
+// }
+
+
+// console.log(typeof myfunction);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack memory (primitive)  Heap memory (Non-primitive)
+
+
+
+
+// let myyoutube = "coderboy@";
+// let anotherchanel = myyoutube
+// anotherchanel = "faiyaz@1234"
+// console.log(myyoutube)
+// console.log(anotherchanel)
+
+
+let userone = {
+    email:"user@gmail.com",
+    upi:"you@221"
 }
 
-console.log(typeof myobj);
+let usertwo = userone
+usertwo.email = "faiyazansari@15901@gmail.com"
 
+console.log(userone.email)
+console.log(usertwo.email)
 
-const myfunction = function num(){
-    console.log("hellow");
-
-}
 
 
