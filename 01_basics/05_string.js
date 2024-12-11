@@ -25,11 +25,7 @@
 // console.log(arr)
 
 
-const bo = "faiyaz ansari";
-console.log(bo.bold())
+// const bo = "faiyaz ansari";
+// console.log(bo.bold())
 
 
-
-const contentString = "Hello, world";
-
-console.log(bo.concat(contentString))
