@@ -6,8 +6,21 @@ if(true){
     
 }
 
-
-
 // console.log(a)
 // console.log(b)
-console.log(c)
+// console.log(c)
+
+
+function one(){
+    const username = "faiyaz ansari"
+
+    function two(){
+        const webside = "youtube"
+        console.log(username)
+    }
+    // console.log(webside)
+
+    two()
+}
+one()
+
