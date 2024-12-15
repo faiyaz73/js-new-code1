@@ -1,6 +1,6 @@
-let myarr = [1,2,5,8,9,89,76]
-let arr = ["akash","rahul","anil","aman"]
-let ar = new Array(23,45,667,33)
+// let myarr = [1,2,5,8,9,89,76]
+// let arr = ["akash","rahul","anil","aman"]
+// let ar = new Array(23,45,667,33)
 // console.log(myarr[2])
 
 // Array methods
@@ -16,17 +16,35 @@ let ar = new Array(23,45,667,33)
 // console.log(myarr.includes(76))
 // console.log(myarr.indexOf(2))
 
-const j = myarr.join()           // this is a change in string 
+// const j = myarr.join()           // this is a change in string 
 // console.log(j)
 // console.log(myarr)  
 
 // slice and splice
 
-console.log("A ",myarr)
-const myn1 = myarr.slice(1,3)        // 1,2 index include not a include 3 index 
-console.log(myn1)
-console.log("B ",myn1)
+// console.log("A ",myarr)
+// const myn1 = myarr.slice(1,3)        // 1,2 index include not a include 3 index 
+// console.log(myn1)
+// console.log("B ",myn1)
 
-const myn2 = myarr.splice(1,3)       // 1,2 and 3 indexes value  are remove 
-console.log(myn2)
-console.log("C ",myarr)
+// const myn2 = myarr.splice(1,3)       // 1,2 and 3 indexes value  are remove 
+// console.log(myn2)
+// console.log("C ",myarr)
+
+
+let num = [1,2,3,4,5,6]
+num[3] = 50
+
+const num1 = new Array(1,23,45,56,778,8)
+
+// console.log(num)
+// const b = ["rakesh","ajay","akasha"]
+// console.log(typeof(b))
+
+
+// console.log(num1)
+num1.push(33)
+console.log(num1)
+num1.pop()
+console.log(num1)
+

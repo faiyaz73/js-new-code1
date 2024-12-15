@@ -14,6 +14,14 @@
 // const hundred = 1000000
 // console.log(hundred.toLocaleString('en-IN'))     // this is a comma seprated value output
 
+const a  = -233
+// console.log(Math.abs(a))
+const n = 3434
+// const b = console.log(n.toString())
+const b = console.log(n.toFixed(2))
+console.log(b)
+
+
 // __________  maths library _______
 
 
@@ -30,9 +38,9 @@
 // console.log(Math.random())
 // console.log(Math.random() * 10 + 1)
 
-const min  = 10
-const max = 20
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+// const min  = 10
+// const max = 20
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min)
 
 
 
