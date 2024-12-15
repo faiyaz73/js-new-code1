@@ -26,3 +26,5 @@ const{courseInsructor:instut} = course            // this is a distructering
 //     }
 // ]
 
+// https://jsonformatter.org/
+// https://randomuser.me/

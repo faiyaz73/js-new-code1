@@ -38,4 +38,40 @@ function LogInuser(username = "faiyaz"){
 // const result = LogInuser("faiyaz ansari")
 // console.log(result)
 
-console.log(LogInuser("firoj"))                       // if not define argument result is undefined
+// console.log(LogInuser("firoj"))                       // if not define argument result is undefined
+
+
+function calculateChartprice(...num1){                  // rest operator ... ya spread operator is same 
+return num1
+}
+// console.log(calculateChartprice(300,400,500,600))
+
+
+const user1 = {
+    name:"faiyaz",
+    price:4000,
+    id:1
+
+}
+
+function value(anyobject){
+    console.log(`username ${anyobject.name} price ${anyobject.price} id ${anyobject.id}`)
+
+}
+// console.log(value(user1))                
+
+value({
+    name:"firoj",                               // this is a direct value pass
+    price:4000,
+    id:3
+})
+
+
+const arra = [200,400,500,600]
+
+function num(getarray){
+    return getarray[0]
+}
+
+// console.log(num(arra))
+console.log(num([20,30,50,40]))             // this is a second methods use of array put value
