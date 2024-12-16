@@ -22,5 +22,26 @@ function one(){
 
     two()
 }
-one()
+// one()
 
+if(true){
+    const username = "aman"
+    if(username === "aman"){                                // this is a closer
+        const webside = " youtube "
+        // console.log(username + webside)                     
+    }
+    // console.log(webside);
+}
+// console.log(username);
+
+// ++++++++++++++++++++++++++++++++ interesting  +++++++++++++++++++++++++++
+
+console.log(addone(34))
+function addone(num){
+return num + 1
+}
+
+console.log(sumtwo(3))               // this is a error beacuse this first initilization so error output            
+const sumtwo = function(num){
+    return num + 2
+}
